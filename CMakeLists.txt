@@ -24,7 +24,7 @@ if(BUILD_TESTING)
 endif()
 
 install(DIRECTORY launch
-DESTINATION share/${PROJETC_NAME}
+DESTINATION share/${PROJECT_NAME}
 )
 
 ament_package()
